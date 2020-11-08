@@ -1,6 +1,6 @@
 # portal_orc
 
-A new Flutter project.
+Criação de um aplicativo de dashboard para acompanhamento das metas da empresa júnior.
 
 ## Getting Started
 
