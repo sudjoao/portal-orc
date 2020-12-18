@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portal_orc/home.dart';
+import 'package:portal_orc/screens/main_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: MainScreen(),
     );
   }
 }
