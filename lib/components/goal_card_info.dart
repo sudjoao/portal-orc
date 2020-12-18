@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:portal_orc/styles/styles.dart';
-import 'package:portal_orc/utils/results_utils.dart';
 
 class GoalCardInfo extends StatelessWidget {
   final String goalLabel;
@@ -25,7 +24,7 @@ class GoalCardInfo extends StatelessWidget {
           textAlign: TextAlign.end,
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            color: getColorResult(goalResult, totalGoal),
+            color: Colors.black,
           ),
         )
       ],

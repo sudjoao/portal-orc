@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:portal_orc/styles/colors.dart';
-import 'package:portal_orc/utils/results_utils.dart';
 
 TextStyle kGoalLabelStyle = TextStyle(
   fontSize: 20.0,
@@ -13,12 +11,12 @@ TextStyle kResultStyle = TextStyle(
   fontWeight: FontWeight.bold,
 );
 
-Widget resulText(text, actualValue, goalValue) {
+Widget resulText(text) {
   return Text(
     text,
     textAlign: TextAlign.center,
     style: kResultStyle.copyWith(
-      color: getColorResult(actualValue, goalValue),
+      color: Colors.black,
     ),
   );
 }
