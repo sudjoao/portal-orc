@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portal_orc/screens/home_screen.dart';
+import 'package:portal_orc/screens/profile_screen.dart';
 import 'package:portal_orc/styles/colors.dart';
 
 class MainScreen extends StatefulWidget {
@@ -20,7 +21,7 @@ class _MainScreenState extends State<MainScreen> {
     },
     {
       "title": "Perfil",
-      "screen": HomeScreen(),
+      "screen": ProfileScreen(),
     }
   ];
   List<Map<String, dynamic>> bottomNavigatorIconTitles = [
